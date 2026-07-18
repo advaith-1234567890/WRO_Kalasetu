@@ -1,0 +1,36 @@
+# Python & Environment Clean Up
+
+# Ignores local Python bytecode cache folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignores virtual environments if you use them locally
+venv/
+.venv/
+env/
+
+# Ignores local configuration and environment variable files (secrets)
+.env
+
+# Project Specific & Large Media Files
+
+# Ignores your local test/temporary images so they don't bloat your GitHub
+backend/content_image.jpg
+backend/style_image.jpg
+backend/your_image.jpg
+*.jpeg
+*.jpg
+*.png
+
+# =====================================================================
+# System & Editor Files
+# =====================================================================
+# Ignores OS-specific thumbnail caches
+.DS_Store
+Thumbs.db
+
+# Ignores local editor configurations (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
